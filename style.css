@@ -138,7 +138,7 @@ ABOUT-ME
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 600px;
+    min-width: 450px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 56px;
@@ -427,6 +427,8 @@ nav {
 h1 {
     font-size: 28px;
 }
+ .about-me__info--container {
+        width: 100%;
 .about-me__info--para {
     font-size: 18px;
 }
@@ -449,6 +451,9 @@ h1 {
 .nav__link:not(:last-child) {
 display: none;
 }
+.about-me__info--container {
+        width: 100%;
+    }
 .project__description {
     padding: 0;
     left: 0;
